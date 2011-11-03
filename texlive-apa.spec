@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/apa
+# catalog-date 2008-12-23 16:23:48 +0100
+# catalog-license lppl
+# catalog-version 1.3.4
 Name:		texlive-apa
 Version:	1.3.4
 Release:	1
@@ -53,6 +59,7 @@ enhancements and APA-motivated changes.
 %doc %{_texmfdistdir}/doc/latex/apa/apaexample.tex
 %doc %{_texmfdistdir}/doc/latex/apa/examplebib.bib
 %doc %{_texmfdistdir}/doc/latex/apa/examples.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ enhancements and APA-motivated changes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
