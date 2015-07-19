@@ -6,7 +6,7 @@
 # catalog-version 1.3.4
 Name:		texlive-apa
 Version:	1.3.4
-Release:	9
+Release:	10
 Summary:	American Psychological Association format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/apa
