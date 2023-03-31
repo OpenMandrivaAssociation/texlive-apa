@@ -1,6 +1,6 @@
 Name:		texlive-apa
 Version:	54080
-Release:	1
+Release:	2
 Summary:	American Psychological Association format
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/apa
