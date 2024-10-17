@@ -3,7 +3,7 @@ Version:	54080
 Release:	2
 Summary:	American Psychological Association format
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/apa
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/apa
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apa.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/apa.doc.r%{version}.tar.xz
